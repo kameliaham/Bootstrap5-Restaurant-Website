@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&display=swap');
+
+.Merriweather {
+    font-family: Merriweather , cursive ;
+}
+
+.Redressed {
+    font-family: Redressed , cursive ;
+}
+
+.cc-nav {
+ background-color: rgba(0,0,0,.55);
+ font-family:'Merriweather',serif; 
+ box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+z-index: 90;
+}
+
+.cc-nav .nav-link {
+    border-bottom: 1px solid transparent ;
+    transition: padding-bottom .4S case-in-cut , border-color .3s case ;
+}
+ 
+.cc-nav .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: #3ef0a0 ;
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://raw.githubusercontent.com/Nephilim237/Formation-Bootstrap-5---Apprendre-et-comprendre-par-la-pratique/main/assets/img/banniere2.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height:900px; 
+}
+
+.cc-menu {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://github.com/Nephilim237/Formation-Bootstrap-5---Apprendre-et-comprendre-par-la-pratique/blob/main/assets/img/banniere5.jpg?raw=true') center center fixed no-repeat;
+    background-size: cover;
+    height:1200x; 
+}
+
+.order-form {
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://raw.githubusercontent.com/Nephilim237/Formation-Bootstrap-5---Apprendre-et-comprendre-par-la-pratique/main/assets/img/banniere2.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height:900px; 
+}
+
+.barner-desc {
+    font-size: 55px;
+    color: white ;
+}
+
+.mycard {
+    border: 0px ;
+}
+.btn-order {
+    color : #3ef0a0 ;
+    border-color: #3ef0a0; 
+    transition:0.5s ;
+}
+
+.btn-order:hover , .btn-order:active {
+    color : white;
+    background-color: #3ef0a0; 
+    border-color:#3ef0a0 ;
+}
+
+
+.IMAG img {
+ max-height: 317px ;
+}
+
+
+
